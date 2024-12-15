@@ -9,14 +9,15 @@
 
     <!-- TextView for displaying the result -->
     <TextView
-        android:id="@+id/result"
+        android:id="@+id/resultEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="16dp"
         android:textStyle="bold"
         android:textColor="@color/magenta"
-        android:text="0"
+        android:text=""
+        android:hint="0"
         android:layout_marginTop="32dp"
         android:textSize="64sp" />
 
@@ -28,6 +29,6 @@
         android:layout_weight="1"
         android:columnCount="4"
         android:rowCount="4"
-        android:padding="32dp"/>
+        android:padding="46dp"/>
 
 </LinearLayout>
