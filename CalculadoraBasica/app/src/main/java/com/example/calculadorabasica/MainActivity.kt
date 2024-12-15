@@ -106,7 +106,8 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 // Update the result in the text view
-                actualText = result.toString()
+
+                actualText = String.format("%.2f", result)
                 binding.resultEditText.text = actualText
                 return
             }
